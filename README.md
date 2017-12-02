@@ -1,7 +1,7 @@
-# DateFormatter
+# DateTransformer
 A small framwork for transforming Dates to Strings, and Strings to Dates
 
-DateFormatter is a small library for transforming strings to dates, and dates to strings. The library uses a relativley unknown class in Foundation called [NSValueTransformer](http://nshipster.com/nsvaluetransformer/). This class is meant to be used to transform one value to another, and be subclassed to support transforming your types.
+DateTransformer is a small library for transforming strings to dates, and dates to strings. The library uses a relativley unknown class in Foundation called [NSValueTransformer](http://nshipster.com/nsvaluetransformer/). This class is meant to be used to transform one value to another, and be subclassed to support transforming your types.
 
 ## Installation
 
