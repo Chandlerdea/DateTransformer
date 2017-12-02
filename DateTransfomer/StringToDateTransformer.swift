@@ -75,6 +75,8 @@ extension StringToDateTransformer {
             if canParse {
                 result = date as? Date as AnyObject?
             }
+        } else {
+            assertionFailure("value needs to be a string")
         }
         return result
     }
