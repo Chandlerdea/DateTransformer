@@ -21,6 +21,11 @@ public final class DateToTimestampTransformer: ValueTransformer {
     
     // MARK: - Public Methods
     
+    /**
+     Transforms a `Date` into a timestamp (3 minutes ago, 1 week ago....)
+     - parameter date: The date, in the past, that the timestamp is referencing
+     - returns: A string timestamp
+    */
     public func transformDate(_ date: Date) -> String? {
         return self.transformedValue(date) as? String
     }    
