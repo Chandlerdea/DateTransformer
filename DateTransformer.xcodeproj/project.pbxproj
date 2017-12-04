@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		364F9F701FD36DF00072F304 /* DateToTimestampTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F9F6F1FD36DF00072F304 /* DateToTimestampTransformerTests.swift */; };
-		36BD0A801FD32F3D004A8151 /* DateTransfomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BD0A761FD32F3D004A8151 /* DateTransfomer.framework */; };
-		36BD0A851FD32F3D004A8151 /* StringToDateTransfomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD0A841FD32F3D004A8151 /* StringToDateTransfomerTests.swift */; };
-		36BD0A871FD32F3D004A8151 /* DateTransfomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BD0A791FD32F3D004A8151 /* DateTransfomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36BD0A931FD32F4D004A8151 /* NSValueTransformerName+DateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD0A901FD32F4D004A8151 /* NSValueTransformerName+DateTransformer.swift */; };
-		36BD0A941FD32F4D004A8151 /* StringToDateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD0A911FD32F4D004A8151 /* StringToDateTransformer.swift */; };
-		36BD0A951FD32F4D004A8151 /* TimeIntervalToStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD0A921FD32F4D004A8151 /* TimeIntervalToStringTransformer.swift */; };
-		36BD0A971FD32F9C004A8151 /* TimeIntervalToStringTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD0A961FD32F9C004A8151 /* TimeIntervalToStringTransformerTests.swift */; };
-		36FEA2FB1FD35A3D00696B40 /* DateToTimestampTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FEA2FA1FD35A3D00696B40 /* DateToTimestampTransformer.swift */; };
+		364B25D01FD5C733005094D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 364B25C51FD5C733005094D8 /* Info.plist */; };
+		364B25D31FD5C733005094D8 /* DateToTimestampTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25C91FD5C733005094D8 /* DateToTimestampTransformer.swift */; };
+		364B25D41FD5C733005094D8 /* DateTransfomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B25CA1FD5C733005094D8 /* DateTransfomer.h */; };
+		364B25D51FD5C733005094D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 364B25CB1FD5C733005094D8 /* Info.plist */; };
+		364B25D61FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25CC1FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift */; };
+		364B25D71FD5C733005094D8 /* StringToDateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25CD1FD5C733005094D8 /* StringToDateTransformer.swift */; };
+		364B25D81FD5C733005094D8 /* TimeIntervalToStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25CE1FD5C733005094D8 /* TimeIntervalToStringTransformer.swift */; };
+		364B25D91FD5C7BD005094D8 /* StringToDateTransfomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25C61FD5C733005094D8 /* StringToDateTransfomerTests.swift */; };
+		364B25DA1FD5C7C3005094D8 /* DateToTimestampTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25C41FD5C733005094D8 /* DateToTimestampTransformerTests.swift */; };
+		364B25DB1FD5C7C7005094D8 /* TimeIntervalToStringTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25C71FD5C733005094D8 /* TimeIntervalToStringTransformerTests.swift */; };
+		36BD0A801FD32F3D004A8151 /* DateTransformer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BD0A761FD32F3D004A8151 /* DateTransformer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,18 +31,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		364F9F6F1FD36DF00072F304 /* DateToTimestampTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToTimestampTransformerTests.swift; sourceTree = "<group>"; };
-		36BD0A761FD32F3D004A8151 /* DateTransfomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTransfomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BD0A791FD32F3D004A8151 /* DateTransfomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateTransfomer.h; sourceTree = "<group>"; };
-		36BD0A7A1FD32F3D004A8151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36BD0A7F1FD32F3D004A8151 /* DateTransfomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTransfomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BD0A841FD32F3D004A8151 /* StringToDateTransfomerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToDateTransfomerTests.swift; sourceTree = "<group>"; };
-		36BD0A861FD32F3D004A8151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36BD0A901FD32F4D004A8151 /* NSValueTransformerName+DateTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSValueTransformerName+DateTransformer.swift"; sourceTree = "<group>"; };
-		36BD0A911FD32F4D004A8151 /* StringToDateTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToDateTransformer.swift; sourceTree = "<group>"; };
-		36BD0A921FD32F4D004A8151 /* TimeIntervalToStringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalToStringTransformer.swift; sourceTree = "<group>"; };
-		36BD0A961FD32F9C004A8151 /* TimeIntervalToStringTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalToStringTransformerTests.swift; sourceTree = "<group>"; };
-		36FEA2FA1FD35A3D00696B40 /* DateToTimestampTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToTimestampTransformer.swift; sourceTree = "<group>"; };
+		364B25C41FD5C733005094D8 /* DateToTimestampTransformerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateToTimestampTransformerTests.swift; sourceTree = "<group>"; };
+		364B25C51FD5C733005094D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364B25C61FD5C733005094D8 /* StringToDateTransfomerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToDateTransfomerTests.swift; sourceTree = "<group>"; };
+		364B25C71FD5C733005094D8 /* TimeIntervalToStringTransformerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalToStringTransformerTests.swift; sourceTree = "<group>"; };
+		364B25C91FD5C733005094D8 /* DateToTimestampTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateToTimestampTransformer.swift; sourceTree = "<group>"; };
+		364B25CA1FD5C733005094D8 /* DateTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTransfomer.h; sourceTree = "<group>"; };
+		364B25CB1FD5C733005094D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364B25CC1FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSValueTransformerName+DateTransformer.swift"; sourceTree = "<group>"; };
+		364B25CD1FD5C733005094D8 /* StringToDateTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToDateTransformer.swift; sourceTree = "<group>"; };
+		364B25CE1FD5C733005094D8 /* TimeIntervalToStringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalToStringTransformer.swift; sourceTree = "<group>"; };
+		36BD0A761FD32F3D004A8151 /* DateTransformer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTransformer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BD0A7F1FD32F3D004A8151 /* DateTransfomrerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTransfomrerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,18 +57,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BD0A801FD32F3D004A8151 /* DateTransfomer.framework in Frameworks */,
+				36BD0A801FD32F3D004A8151 /* DateTransformer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364B25C31FD5C733005094D8 /* DateTransformerTests */ = {
+			isa = PBXGroup;
+			children = (
+				364B25C41FD5C733005094D8 /* DateToTimestampTransformerTests.swift */,
+				364B25C51FD5C733005094D8 /* Info.plist */,
+				364B25C61FD5C733005094D8 /* StringToDateTransfomerTests.swift */,
+				364B25C71FD5C733005094D8 /* TimeIntervalToStringTransformerTests.swift */,
+			);
+			path = DateTransformerTests;
+			sourceTree = "<group>";
+		};
+		364B25C81FD5C733005094D8 /* DateTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				364B25C91FD5C733005094D8 /* DateToTimestampTransformer.swift */,
+				364B25CA1FD5C733005094D8 /* DateTransfomer.h */,
+				364B25CB1FD5C733005094D8 /* Info.plist */,
+				364B25CC1FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift */,
+				364B25CD1FD5C733005094D8 /* StringToDateTransformer.swift */,
+				364B25CE1FD5C733005094D8 /* TimeIntervalToStringTransformer.swift */,
+			);
+			path = DateTransformer;
+			sourceTree = "<group>";
+		};
 		36BD0A6C1FD32F3D004A8151 = {
 			isa = PBXGroup;
 			children = (
-				36BD0A781FD32F3D004A8151 /* DateTransfomer */,
-				36BD0A831FD32F3D004A8151 /* DateTransfomerTests */,
+				364B25C81FD5C733005094D8 /* DateTransformer */,
+				364B25C31FD5C733005094D8 /* DateTransformerTests */,
 				36BD0A771FD32F3D004A8151 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,34 +100,10 @@
 		36BD0A771FD32F3D004A8151 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36BD0A761FD32F3D004A8151 /* DateTransfomer.framework */,
-				36BD0A7F1FD32F3D004A8151 /* DateTransfomerTests.xctest */,
+				36BD0A761FD32F3D004A8151 /* DateTransformer.framework */,
+				36BD0A7F1FD32F3D004A8151 /* DateTransfomrerTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		36BD0A781FD32F3D004A8151 /* DateTransfomer */ = {
-			isa = PBXGroup;
-			children = (
-				36BD0A901FD32F4D004A8151 /* NSValueTransformerName+DateTransformer.swift */,
-				36BD0A911FD32F4D004A8151 /* StringToDateTransformer.swift */,
-				36BD0A921FD32F4D004A8151 /* TimeIntervalToStringTransformer.swift */,
-				36FEA2FA1FD35A3D00696B40 /* DateToTimestampTransformer.swift */,
-				36BD0A791FD32F3D004A8151 /* DateTransfomer.h */,
-				36BD0A7A1FD32F3D004A8151 /* Info.plist */,
-			);
-			path = DateTransfomer;
-			sourceTree = "<group>";
-		};
-		36BD0A831FD32F3D004A8151 /* DateTransfomerTests */ = {
-			isa = PBXGroup;
-			children = (
-				36BD0A841FD32F3D004A8151 /* StringToDateTransfomerTests.swift */,
-				36BD0A961FD32F9C004A8151 /* TimeIntervalToStringTransformerTests.swift */,
-				364F9F6F1FD36DF00072F304 /* DateToTimestampTransformerTests.swift */,
-				36BD0A861FD32F3D004A8151 /* Info.plist */,
-			);
-			path = DateTransfomerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,16 +113,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BD0A871FD32F3D004A8151 /* DateTransfomer.h in Headers */,
+				364B25D41FD5C733005094D8 /* DateTransfomer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		36BD0A751FD32F3D004A8151 /* DateTransfomer */ = {
+		36BD0A751FD32F3D004A8151 /* DateTransformer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36BD0A8A1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransfomer" */;
+			buildConfigurationList = 36BD0A8A1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransformer" */;
 			buildPhases = (
 				36BD0A711FD32F3D004A8151 /* Sources */,
 				36BD0A721FD32F3D004A8151 /* Frameworks */,
@@ -131,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = DateTransfomer;
+			name = DateTransformer;
 			productName = DateTransfomer;
-			productReference = 36BD0A761FD32F3D004A8151 /* DateTransfomer.framework */;
+			productReference = 36BD0A761FD32F3D004A8151 /* DateTransformer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		36BD0A7E1FD32F3D004A8151 /* DateTransfomerTests */ = {
+		36BD0A7E1FD32F3D004A8151 /* DateTransfomrerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36BD0A8D1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransfomerTests" */;
+			buildConfigurationList = 36BD0A8D1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransfomrerTests" */;
 			buildPhases = (
 				36BD0A7B1FD32F3D004A8151 /* Sources */,
 				36BD0A7C1FD32F3D004A8151 /* Frameworks */,
@@ -149,9 +151,9 @@
 			dependencies = (
 				36BD0A821FD32F3D004A8151 /* PBXTargetDependency */,
 			);
-			name = DateTransfomerTests;
+			name = DateTransfomrerTests;
 			productName = DateTransfomerTests;
-			productReference = 36BD0A7F1FD32F3D004A8151 /* DateTransfomerTests.xctest */;
+			productReference = 36BD0A7F1FD32F3D004A8151 /* DateTransfomrerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36BD0A701FD32F3D004A8151 /* Build configuration list for PBXProject "DateTransfomer" */;
+			buildConfigurationList = 36BD0A701FD32F3D004A8151 /* Build configuration list for PBXProject "DateTransformer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36BD0A751FD32F3D004A8151 /* DateTransfomer */,
-				36BD0A7E1FD32F3D004A8151 /* DateTransfomerTests */,
+				36BD0A751FD32F3D004A8151 /* DateTransformer */,
+				36BD0A7E1FD32F3D004A8151 /* DateTransfomrerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364B25D51FD5C733005094D8 /* Info.plist in Resources */,
+				364B25D01FD5C733005094D8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,10 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BD0A951FD32F4D004A8151 /* TimeIntervalToStringTransformer.swift in Sources */,
-				36BD0A931FD32F4D004A8151 /* NSValueTransformerName+DateTransformer.swift in Sources */,
-				36FEA2FB1FD35A3D00696B40 /* DateToTimestampTransformer.swift in Sources */,
-				36BD0A941FD32F4D004A8151 /* StringToDateTransformer.swift in Sources */,
+				364B25D71FD5C733005094D8 /* StringToDateTransformer.swift in Sources */,
+				364B25D31FD5C733005094D8 /* DateToTimestampTransformer.swift in Sources */,
+				364B25D81FD5C733005094D8 /* TimeIntervalToStringTransformer.swift in Sources */,
+				364B25D61FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BD0A851FD32F3D004A8151 /* StringToDateTransfomerTests.swift in Sources */,
-				364F9F701FD36DF00072F304 /* DateToTimestampTransformerTests.swift in Sources */,
-				36BD0A971FD32F9C004A8151 /* TimeIntervalToStringTransformerTests.swift in Sources */,
+				364B25D91FD5C7BD005094D8 /* StringToDateTransfomerTests.swift in Sources */,
+				364B25DA1FD5C7C3005094D8 /* DateToTimestampTransformerTests.swift in Sources */,
+				364B25DB1FD5C7C7005094D8 /* TimeIntervalToStringTransformerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		36BD0A821FD32F3D004A8151 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36BD0A751FD32F3D004A8151 /* DateTransfomer */;
+			target = 36BD0A751FD32F3D004A8151 /* DateTransformer */;
 			targetProxy = 36BD0A811FD32F3D004A8151 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,11 +371,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DateTransfomer/Info.plist;
+				INFOPLIST_FILE = DateTransformer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransfomer;
+				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransformer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -392,11 +396,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DateTransfomer/Info.plist;
+				INFOPLIST_FILE = DateTransformer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransfomer;
+				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransformer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -411,9 +415,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = DateTransfomerTests/Info.plist;
+				INFOPLIST_FILE = DateTransformerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransfomerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransformerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -427,9 +431,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = DateTransfomerTests/Info.plist;
+				INFOPLIST_FILE = DateTransformerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransfomerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = chandlerdea.DateTransformerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -440,7 +444,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36BD0A701FD32F3D004A8151 /* Build configuration list for PBXProject "DateTransfomer" */ = {
+		36BD0A701FD32F3D004A8151 /* Build configuration list for PBXProject "DateTransformer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36BD0A881FD32F3D004A8151 /* Debug */,
@@ -449,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36BD0A8A1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransfomer" */ = {
+		36BD0A8A1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransformer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36BD0A8B1FD32F3D004A8151 /* Debug */,
@@ -458,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36BD0A8D1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransfomerTests" */ = {
+		36BD0A8D1FD32F3D004A8151 /* Build configuration list for PBXNativeTarget "DateTransfomrerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36BD0A8E1FD32F3D004A8151 /* Debug */,

@@ -1,15 +1,15 @@
 //
-//  DateTransfomerTests.swift
-//  DateTransfomerTests
+//  DateTransformerTests.swift
+//  DateTransformerTests
 //
 //  Created by Chandler De Angelis on 12/2/17.
 //  Copyright © 2017 Chandler De Angelis. All rights reserved.
 //
 
 import XCTest
-@testable import DateTransfomer
+@testable import DateTransformer
 
-class DateTransfomerTests: XCTestCase {
+class DateTransformerTests: XCTestCase {
     
     var transformer: StringToDateTransformer!
     

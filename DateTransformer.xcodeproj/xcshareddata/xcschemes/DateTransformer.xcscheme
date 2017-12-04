@@ -7,7 +7,7 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -15,9 +15,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36BD0A751FD32F3D004A8151"
-               BuildableName = "DateTransfomer.framework"
-               BlueprintName = "DateTransfomer"
-               ReferencedContainer = "container:DateTransfomer.xcodeproj">
+               BuildableName = "DateTransformer.framework"
+               BlueprintName = "DateTransformer"
+               ReferencedContainer = "container:DateTransformer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "36BD0A7E1FD32F3D004A8151"
+               BuildableName = "DateTransfomrerTests.xctest"
+               BlueprintName = "DateTransfomrerTests"
+               ReferencedContainer = "container:DateTransformer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,24 +43,14 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36BD0A7E1FD32F3D004A8151"
-               BuildableName = "DateTransfomerTests.xctest"
-               BlueprintName = "DateTransfomerTests"
-               ReferencedContainer = "container:DateTransfomer.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36BD0A751FD32F3D004A8151"
-            BuildableName = "DateTransfomer.framework"
-            BlueprintName = "DateTransfomer"
-            ReferencedContainer = "container:DateTransfomer.xcodeproj">
+            BuildableName = "DateTransformer.framework"
+            BlueprintName = "DateTransformer"
+            ReferencedContainer = "container:DateTransformer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36BD0A751FD32F3D004A8151"
-            BuildableName = "DateTransfomer.framework"
-            BlueprintName = "DateTransfomer"
-            ReferencedContainer = "container:DateTransfomer.xcodeproj">
+            BuildableName = "DateTransformer.framework"
+            BlueprintName = "DateTransformer"
+            ReferencedContainer = "container:DateTransformer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,9 +89,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36BD0A751FD32F3D004A8151"
-            BuildableName = "DateTransfomer.framework"
-            BlueprintName = "DateTransfomer"
-            ReferencedContainer = "container:DateTransfomer.xcodeproj">
+            BuildableName = "DateTransformer.framework"
+            BlueprintName = "DateTransformer"
+            ReferencedContainer = "container:DateTransformer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

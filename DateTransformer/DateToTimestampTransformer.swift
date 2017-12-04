@@ -1,6 +1,6 @@
 //
 //  DateToTimestampTransformer.swift
-//  DateTransfomer
+//  DateTransformer
 //
 //  Created by Chandler De Angelis on 12/2/17.
 //  Copyright © 2017 Chandler De Angelis. All rights reserved.
