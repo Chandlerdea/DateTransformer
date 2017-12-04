@@ -18,7 +18,7 @@ You can just drop DateTransformer.xcodeproj into your project and then add DateT
 
 ## Use
 
-There are two `NSValueTransformer` subclasses you can use, `StringToDateTransformer` and `TimeIntervalToStringTransformer`. 
+There are 3 `NSValueTransformer` subclasses you can use, `StringToDateTransformer`, `TimeIntervalToStringTransformer` and `DateToTimestampTransformer`. 
 
 ### StringToDateTransformer
 
@@ -58,6 +58,18 @@ if let countdownString: String = transformer.transformTimeInterval(secondsToFutu
 }
 
 ```
+
+### DateToTimestampTransformer
+
+`DateToTimestampTransformer` transforms a `Date` to a `String` timestamp. You would use this for showing a timestamp like `3 minutes ago`. Here's an example:
+
+```
+let dateInPast: Date = ...
+let transformer: DateToTimestampTransformer = DateToTimestampTransformer()
+if let timestamp: String = transformer.transformDate(dateInPast) {
+  // "4 minutes ago"
+ }
+ ```
 
 ## Support
 
