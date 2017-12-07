@@ -25,13 +25,6 @@ public final class TimeIntervalToStringTransformer: ValueTransformer {
         self.dateFormatter.dateFormat = dateFormat
     }
     
-    deinit {
-        if ValueTransformer(forName: .TimeIntervalToStringTransformer) == nil {
-            let newTransformer: TimeIntervalToStringTransformer = TimeIntervalToStringTransformer(dateFormat: self.dateFormatter.dateFormat)
-            ValueTransformer.setValueTransformer(newTransformer, forName: .TimeIntervalToStringTransformer)
-        }
-    }
-    
     /**
      Takes a time interval and returns a string representation of the interval
      - parameter interval: A `TimeInterval`

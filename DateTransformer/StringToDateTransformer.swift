@@ -15,15 +15,6 @@ public final class StringToDateTransformer: ValueTransformer {
     public static let defaultDateFormat:            String      = "EEEE, MMM d, yyyy"
 
     private lazy var dateFormatter: DateFormatter = DateFormatter()
-
-    // MARk: - Init
-    
-    deinit {
-        if ValueTransformer(forName: .StringToDateTransformer) == nil {
-            let newTransformer: StringToDateTransformer = StringToDateTransformer()
-            ValueTransformer.setValueTransformer(newTransformer, forName: .StringToDateTransformer)
-        }
-    }
     
     /**
     Takes a string representation of a date, and returns an optional date. This is the forward transform.
