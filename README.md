@@ -18,7 +18,7 @@ You can just drop DateTransformer.xcodeproj into your project and then add DateT
 
 ## Use
 
-There are 3 `NSValueTransformer` subclasses you can use, `StringToDateTransformer`, `TimeIntervalToStringTransformer` and `DateToTimestampTransformer`. 
+There are 2 `NSValueTransformer` subclasses you can use, `StringToDateTransformer`, `TimeIntervalToStringTransformer`. 
 
 ### StringToDateTransformer
 
