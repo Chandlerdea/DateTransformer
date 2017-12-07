@@ -47,7 +47,7 @@ if let result: String = transformer.transformDate(date, dateFormat: format) {
 
 ### TimeIntervalToStringTransformer
 
-`TimeIntervalToStringTransformer` transforms a `TimeInerval` to a `String`. A usecase would be if you were counting down from a date in the future to now, and you wanted to display the number of hours, minutes, and seconds to the user. The default format used by the class is `EEEE, MMM d, yyyy`. As before, it is important to note that the passed in timeInterval will have the system time zone applied by default. There is a `timeZone` argument that allows you to pass a custom time zone that will be applied to the date Here's an example:
+`TimeIntervalToStringTransformer` transforms a `TimeInerval` to a `String`. A usecase would be if you were counting down from a date in the future, and you wanted to display the number of hours, minutes, and seconds to the user. The default format used by the class is `EEEE, MMM d, yyyy`. As before, it is important to note that the passed in timeInterval will have the system time zone applied by default. There is a `timeZone` argument that allows you to pass a custom time zone that will be applied to the date Here's an example:
 
 ```
 let secondsToFutureDate: TimeInterval = ...
