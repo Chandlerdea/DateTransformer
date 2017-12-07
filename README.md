@@ -59,18 +59,6 @@ if let countdownString: String = transformer.transformTimeInterval(secondsToFutu
 
 ```
 
-### DateToTimestampTransformer
-
-`DateToTimestampTransformer` transforms a `Date` to a `String` timestamp. You would use this for showing a timestamp like `3 minutes ago`. Here's an example:
-
-```
-let dateInPast: Date = ...
-let transformer: DateToTimestampTransformer = DateToTimestampTransformer()
-if let timestamp: String = transformer.transformDate(dateInPast) {
-  // "4 minutes ago"
- }
- ```
-
 ## Support
 
 If you find any bugs, or have any critiques, please open a PR and I will fix them as soon as I can. And if you feel the need to add some more tests, you're more than welcome!
