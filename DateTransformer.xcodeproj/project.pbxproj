@@ -41,6 +41,7 @@
 		364B25CC1FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSValueTransformerName+DateTransformer.swift"; sourceTree = "<group>"; };
 		364B25CD1FD5C733005094D8 /* StringToDateTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToDateTransformer.swift; sourceTree = "<group>"; };
 		364B25CE1FD5C733005094D8 /* TimeIntervalToStringTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalToStringTransformer.swift; sourceTree = "<group>"; };
+		36A1F11E1FD9F8D300797863 /* DateTransformer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DateTransformer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36BD0A761FD32F3D004A8151 /* DateTransformer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateTransformer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BD0A7F1FD32F3D004A8151 /* DateTransfomrerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTransfomrerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +92,7 @@
 		36BD0A6C1FD32F3D004A8151 = {
 			isa = PBXGroup;
 			children = (
+				36A1F11E1FD9F8D300797863 /* DateTransformer.playground */,
 				364B25C81FD5C733005094D8 /* DateTransformer */,
 				364B25C31FD5C733005094D8 /* DateTransformerTests */,
 				36BD0A771FD32F3D004A8151 /* Products */,

@@ -29,10 +29,12 @@ public final class StringToDateTransformer: ValueTransformer {
     Takes a string representation of a date, and returns an optional date. This is the forward transform.
     - parameter string: The string representation of the date
     - parameter dateFormat: The date format string, so the internal `DateFormatter` is able to read the date string
+    - parameter timeZone: The timezone that the date string is in. The default is UTC, because Date objects are represented in UTC.
     - returns: An optional `Date`
     */
-    public func transformString(_ string: String, dateFormat: String) -> Date? {
+    public func transformString(_ string: String, dateFormat: String, timeZone: TimeZone = TimeZone(secondsFromGMT: 0)!) -> Date? {
         self.dateFormatter.dateFormat = dateFormat
+        self.dateFormatter.timeZone = timeZone
         return self.transformedValue(string) as? Date
     }
     
