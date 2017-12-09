@@ -21,7 +21,7 @@ class DateTransformerTests: XCTestCase {
     func testThatDateWithDefaultFormatFromStringIsCorrect() {
         let expectedDate: Date = Date(timeIntervalSince1970: 0)
         let dateString: String = "1970-01-01T00:00:00+0000"
-        let result: Date? = self.transformer.transformString(dateString, dateFormat: StringToDateTransformer.defaultStringToDateFormat)
+        let result: Date? = self.transformer.transformString(dateString)
         XCTAssertEqual(expectedDate, result)
     }
     

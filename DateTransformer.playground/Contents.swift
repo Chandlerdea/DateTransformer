@@ -5,11 +5,9 @@ import DateTransformer
 
 let stringToDateTransformer: StringToDateTransformer = StringToDateTransformer()
 
-let defaultDateString: String = "1970-01-01T00:00:00+0000"
-let defaultDate: Date? = stringToDateTransformer.transformString(defaultDateString, dateFormat: StringToDateTransformer.defaultStringToDateFormat)
+let defaultDate: Date? = stringToDateTransformer.transformString("1970-01-01T00:00:00+0000")
 
-let shortDateString: String = "Dec 7, 2017"
-let shortDate: Date? = stringToDateTransformer.transformString(shortDateString, dateFormat: "MMMM d, yyyy")
+let shortDate: Date? = stringToDateTransformer.transformString("Dec 7, 2017", dateFormat: "MMMM d, yyyy")
 
 let currentDate: Date = Date()
 let shortString: String? = stringToDateTransformer.transformDate(currentDate, dateFormat: "MM/dd/yyyy")

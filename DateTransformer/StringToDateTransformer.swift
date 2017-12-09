@@ -19,11 +19,11 @@ public final class StringToDateTransformer: ValueTransformer {
     /**
     Takes a string representation of a date, and returns an optional date. This is the forward transform.
     - parameter string: The string representation of the date
-    - parameter dateFormat: The date format string, so the internal `DateFormatter` is able to read the date string
-    - parameter timeZone: The timezone that the date string is in. The default is UTC, because Date objects are represented in UTC.
+    - parameter dateFormat: The date format string, so the internal `DateFormatter` is able to read the date string. Defaults to `yyyy-MM-dd'T'HH:mm:ssZ`
+    - parameter timeZone: The timezone that the date string is in. The default is UTC, because `Date` objects are represented in UTC.
     - returns: An optional `Date`
     */
-    public func transformString(_ string: String, dateFormat: String, timeZone: TimeZone = TimeZone(secondsFromGMT: 0)!) -> Date? {
+    public func transformString(_ string: String, dateFormat: String = StringToDateTransformer.defaultStringToDateFormat, timeZone: TimeZone = TimeZone(secondsFromGMT: 0)!) -> Date? {
         self.dateFormatter.dateFormat = dateFormat
         self.dateFormatter.timeZone = timeZone
         return self.transformedValue(string) as? Date
@@ -33,10 +33,10 @@ public final class StringToDateTransformer: ValueTransformer {
      Takes a `Date`, and returns a string representation of that date. This is the reverse transform.
      - parameter date: The date that will be transformed into a string
      - parameter dateFormat: The date format string, which represents how the `Date` will be displayed. Defaults to `StringToDateTransformer.defaultDateFormat`
-     - parameter timeZone: A `TimeZone` that will be applied the the `Date`. Defaults to `current`.
+     - parameter timeZone: A `TimeZone` that will be applied the the `Date`. Defaults to UTC.
      - returns: An optional `String`
      */
-    public func transformDate(_ date: Date, dateFormat: String = StringToDateTransformer.defaultDateFormat, timeZone: TimeZone = .current) -> String? {
+    public func transformDate(_ date: Date, dateFormat: String = StringToDateTransformer.defaultDateFormat, timeZone: TimeZone = TimeZone(secondsFromGMT: 0)!) -> String? {
         self.dateFormatter.dateFormat = dateFormat
         self.dateFormatter.timeZone = timeZone
         return self.reverseTransformedValue(date) as? String

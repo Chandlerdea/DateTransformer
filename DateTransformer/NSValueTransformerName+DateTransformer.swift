@@ -10,6 +10,5 @@ import Foundation
 extension NSValueTransformerName {
     static let StringToDateTransformer: NSValueTransformerName = NSValueTransformerName("StringToDateTransformer")
     static let TimeIntervalToStringTransformer: NSValueTransformerName = NSValueTransformerName("TimeIntervalToStringTransformer")
-    static let DateToTimestampTransformer: NSValueTransformerName = NSValueTransformerName("DateToTimestampTransformer")
 }
 
