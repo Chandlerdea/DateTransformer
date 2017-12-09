@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		364B25D01FD5C733005094D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 364B25C51FD5C733005094D8 /* Info.plist */; };
 		364B25D31FD5C733005094D8 /* DateToTimestampTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25C91FD5C733005094D8 /* DateToTimestampTransformer.swift */; };
 		364B25D41FD5C733005094D8 /* DateTransfomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B25CA1FD5C733005094D8 /* DateTransfomer.h */; };
-		364B25D51FD5C733005094D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 364B25CB1FD5C733005094D8 /* Info.plist */; };
 		364B25D61FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25CC1FD5C733005094D8 /* NSValueTransformerName+DateTransformer.swift */; };
 		364B25D71FD5C733005094D8 /* StringToDateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25CD1FD5C733005094D8 /* StringToDateTransformer.swift */; };
 		364B25D81FD5C733005094D8 /* TimeIntervalToStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364B25CE1FD5C733005094D8 /* TimeIntervalToStringTransformer.swift */; };
@@ -202,8 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364B25D51FD5C733005094D8 /* Info.plist in Resources */,
-				364B25D01FD5C733005094D8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
